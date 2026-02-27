@@ -45,4 +45,117 @@ p {
   background-color: blue;
 }
 
-/* TODO: Add CSS for the rest of your solution below */
+.red {
+  justify-content: flex-start;
+  width: 80px;
+  background-color: red;
+}
+
+.blue {
+  justify-content:end;
+  width: 80px;
+  background-color: blue;
+}
+
+.emptyExample3 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
+.wrapper4  {
+  display: flex;
+  height: 60px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+
+.emptyExample4 {
+    display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
+.blue4 {
+    justify-content:end;
+  width: 80px;
+  background-color: blue;
+}
+
+.wrapper5 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  justify-content: center;
+  align-items: center;  
+}
+.red5 {
+  background-color: red;
+  height: 40px;
+  width: 40px;
+}
+
+.middleblue {
+  width: 80px;
+  height: 60px;
+  background-color: blue;
+}
+
+.leftred {
+  flex: 1;
+  background-color: red;
+}
+
+.rightred {
+  flex: 1;
+  background-color: red;
+}
+
+.red7 {
+  width: 80px;
+  height: 60px;
+  background-color: red;
+}
+
+.thisismakingmemad {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.bluetop {
+  flex:1;
+  background-color: blue;
+}
+
+.greenline {
+  height: 20px;
+  background-color: green;
+}
+.bluebottom {
+  flex:1;
+  background-color: blue;
+}
+
+.orange8 {
+  width: 80px;
+  background-color: orange;
+}
+
+.spacer8 {
+  flex:1;
+}
+
+.orange9 {
+  flex:1;
+  background-color: orange;
+}
+
+.spacer9 {
+  width: 20px;
+  background-color: transparent;
+}
+
+
+
